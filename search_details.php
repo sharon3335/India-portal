@@ -289,6 +289,7 @@ $loc=$_GET["pid"];
 							</p>
 							<p class="scheme-c"><input type="text" name="hotel" value="<?php echo $row['cname'];?>" hidden></p>
 							<p><input type="text" name="place" value="<?php echo $row['name'];?>" hidden></p>
+							
 							<p class="submit"><button type="submit">Book now</button></p>
 						</fieldset>
 					</form>
